@@ -37,9 +37,9 @@ Select the notebook 'file.ipynb' and open it with Google Colab using Control Cli
 
 ```sh
    # Conda installation
-   curl -o ~/miniconda.sh -O https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh # Linux
-   curl -o ~/miniconda.sh -O https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh # OSX
-   chmod +x ~/miniconda.sh
+   curl https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -o miniconda.sh -J -L -k # Linux
+   curl https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o miniconda.sh -J -L -k # OSX
+   chmod +x miniconda.sh
    ./miniconda.sh
    source ~/.bashrc
 
