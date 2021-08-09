@@ -24,7 +24,7 @@ Select the notebook 'file.ipynb' and open it with Google Colab using Control Cli
 
 * Simply [click here]
 
-[Click here]: https://mybinder.org/v2/gh/xbresson/CS5242_2021/master
+[Click here]: https://mybinder.org/v2/gh/xbresson/CS5242_2021/main
 
 
 
@@ -72,7 +72,7 @@ Select the notebook 'file.ipynb' and open it with Google Colab using Control Cli
 
    # Clone GitHub repo
    git clone https://github.com/xbresson/CS5242_2021.git
-   cd CE7454_2020
+   cd CS5242_2021
 
    # Install python libraries
    conda env create -f environment_windows.yml
